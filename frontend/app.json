@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "LifeXP",
+    "slug": "lifexp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lifexp",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#090D18"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lifexp.rpg"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#090D18"
+      },
+      "package": "com.lifexp.rpg"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font",
+      "expo-secure-store",
+      "expo-sqlite"
+    ]
+  }
+}
